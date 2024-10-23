@@ -18,6 +18,7 @@ Samuti peaks mängu loonud kasutaja saama ainult enda mänge muuta ja kustutada.
 - Mantine komponentide kasutus
 - Turvalisus - frontend kui ka backend input valideeringud zod schemade abil, andmete kaitse (kasutajate relatsioonid loodud ainult backendis)
 - Mänge lisades peaks kontrollima, et nimi on olemas, maksimaalsete osalejate arv on vähemalt 1 ja kasutustingimustega nõustutud, kui need tingimused pole täidetud peaks kuvama väljade juures frontendis veateateid ning kui teha päring ilma frontend validationita, samuti andma serveri poolset viga.
+- Mängu nimekirjas korraga kuvatud 4 mängu, kui mänge on rohkem, siis kuvatakse pagineerimise nupud
 
 ### Boonuspunktid
 
@@ -26,10 +27,10 @@ Kui see hea/lahe välja näeks
 
 ## Getting Started
 
-Run your app in the development mode.
+Run your app in the development mode. (needs node and pnpm installed)
 
 ```
-blitz dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
