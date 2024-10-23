@@ -1,5 +1,5 @@
 import Head from "next/head"
-import React, { FC } from "react"
+import React from "react"
 import { BlitzLayout } from "@blitzjs/next"
 
 const Layout: BlitzLayout<{ title?: string; children?: React.ReactNode }> = ({
@@ -9,7 +9,7 @@ const Layout: BlitzLayout<{ title?: string; children?: React.ReactNode }> = ({
   return (
     <>
       <Head>
-        <title>{title || "formforge"}</title>
+        <title>{title ?? "formforge"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
