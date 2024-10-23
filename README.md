@@ -2,7 +2,26 @@
 
 This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
 
-# ****name****
+# Ülesanne
+
+Luua juba seadistatud Next.js + Blitz.js + Mantine + React-hook-form + Prisma põhja peale funktsionaalsus,
+mis võimaldab registreerunud ja sisseloginud kasutajatel luua “mänge”, millele saab määrata nime, maksimaalse osalejate arvu ja millega teised kasutajad saavad “liituda” (eeldusel, et maksimaalne osalejate arv ei ole veel täitunud). Mängu luues on vaja kindlasti nõustuda “kasutustingimustega”.
+
+Sisseloginud kasutajatele peaks olema kuvatud kõikide mängude nimekiri, kust on võimalik eristada, kas sisseloginud kasutaja on juba selle mänguga liitunud või võimaldada seda nupuvajutuse abil.
+
+Mängu detailvaadet avades peaks olema kuvatud kõikide liitunud kasutajate emailid.
+Samuti peaks mängu loonud kasutaja saama ainult enda mänge muuta ja kustutada.
+
+### Lisakriteeriumid
+
+- Form state peab olema hallatud läbi React-hook-form lahenduse
+- Mantine komponentide kasutus
+- Turvalisus - frontend kui ka backend input valideeringud zod schemade abil, andmete kaitse (kasutajate relatsioonid loodud ainult backendis)
+
+### Boonuspunktid
+
+Kui see hea/lahe välja näeks
+
 
 ## Getting Started
 
