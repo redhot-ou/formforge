@@ -12,11 +12,12 @@ Sisseloginud kasutajatele peaks olema kuvatud kõikide mängude nimekiri, kust o
 Mängu detailvaadet avades peaks olema kuvatud kõikide liitunud kasutajate emailid.
 Samuti peaks mängu loonud kasutaja saama ainult enda mänge muuta ja kustutada.
 
-### Lisakriteeriumid
+### Kriteeriumid
 
 - Form state peab olema hallatud läbi React-hook-form lahenduse
 - Mantine komponentide kasutus
 - Turvalisus - frontend kui ka backend input valideeringud zod schemade abil, andmete kaitse (kasutajate relatsioonid loodud ainult backendis)
+- Mänge lisades peaks kontrollima, et nimi on olemas, maksimaalsete osalejate arv on vähemalt 1 ja kasutustingimustega nõustutud, kui need tingimused pole täidetud peaks kuvama väljade juures frontendis veateateid ning kui teha päring ilma frontend validationita, samuti andma serveri poolset viga.
 
 ### Boonuspunktid
 
