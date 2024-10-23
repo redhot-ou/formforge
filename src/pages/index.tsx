@@ -93,7 +93,7 @@ const Home: BlitzPage = () => {
                   <div className={styles.code}>
                     <span>1</span>
                     <pre>
-                      <code>blitz generate all project name:string</code>
+                      <code>blitz generate all game name:string</code>
                     </pre>
                   </div>
 
